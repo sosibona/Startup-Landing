@@ -9,15 +9,17 @@ html {
 }
 
 .page {
-	width: 1400px;
-	margin: 0 auto;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	width: 100%;
+	overflow-x: hidden;
 }
 
-section {
-	display: flex;
-	flex-grow: 1;
+@media screen and (min-width: 400px) {
+	.page {
+		width: 1400px;
+		margin: 0 auto;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
 }
 
