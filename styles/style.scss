@@ -1,3 +1,15 @@
+@import 'breakpoint.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'features.scss';
+@import 'tips.scss';
+@import 'common.scss';
+@import 'customers.scss';
+@import 'footer.scss';
+
+
 * {
 	box-sizing: border-box;
 }
@@ -22,4 +34,3 @@ html {
 		flex-direction: column;
 	}
 }
-

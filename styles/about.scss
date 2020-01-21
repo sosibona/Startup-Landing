@@ -1,0 +1,40 @@
+.about {
+  width: 100%;
+  background-color: #F4F5F7;
+  padding: 46px 15px;
+
+  @include for-large-up {
+    display: flex;
+    background-color: #F4F5F7;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+}
+
+.article {
+  font-size: 22px;
+  line-height: 32px;
+
+  &__title {
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+
+  &__text {
+    margin: 0;
+  }
+
+  @include for-large-up {
+    width: 555px;
+  }
+
+  &:first-child {
+    margin-bottom: 20px; 
+    
+    @include for-large-up {
+      margin-right: 29px;
+      margin-bottom: 0;
+    }
+  }
+}
