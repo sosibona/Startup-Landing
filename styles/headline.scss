@@ -87,9 +87,3 @@
     }
   }
 }
-
-.button {
-  @include for-large-down {
-    width: 100%;
-  }
-}

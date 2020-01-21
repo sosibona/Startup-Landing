@@ -224,12 +224,6 @@
   }
 }
 
-@media screen and (max-width: 1399px) {
-  .button {
-    width: 100%;
-  }
-}
-
 .about {
   width: 100%;
   background-color: #F4F5F7;
@@ -371,16 +365,10 @@
   border-bottom: none;
 }
 .features-mobile__title {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: -0.357143px;
   margin: 0;
   margin-top: 17px;
 }
 .features-mobile__description {
-  font-size: 24px;
-  line-height: 34px;
   margin: 0;
   margin-top: 15px;
 }
@@ -412,6 +400,12 @@
   font-size: 18px;
   line-height: 13px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1399px) {
+  .button {
+    width: 100%;
+  }
 }
 
 .action-button {
@@ -463,6 +457,125 @@
 }
 .customers__item:last-child {
   border-right: none;
+}
+
+.order {
+  background-color: #F4F5F7;
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .order {
+    padding: 73px 228px 72px 224px;
+    flex-direction: row;
+  }
+}
+.order__illustration {
+  max-width: 200px;
+}
+@media screen and (min-width: 1400px) {
+  .order__illustration {
+    max-width: 268px;
+    margin-right: 121px;
+    height: 296px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__details {
+    width: 555px;
+  }
+}
+.order__title {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.order__title-for-mobile {
+  display: block;
+}
+@media screen and (min-width: 1400px) {
+  .order__title-for-mobile {
+    display: none;
+  }
+}
+.order__title-for-desktop {
+  display: block;
+  margin: 0;
+}
+@media screen and (max-width: 1399px) {
+  .order__title-for-desktop {
+    display: none;
+  }
+}
+.order__description {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.order__description-for-mobile {
+  display: block;
+}
+@media screen and (min-width: 1400px) {
+  .order__description-for-mobile {
+    display: none;
+  }
+}
+.order__description-for-dekstop {
+  display: block;
+  margin-top: 12px;
+}
+@media screen and (max-width: 1399px) {
+  .order__description-for-dekstop {
+    display: none;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .order__form {
+    display: flex;
+    margin-top: 26px;
+  }
+}
+.order__email {
+  height: 48px;
+  width: 100%;
+  border: 1px solid #2b292d33;
+  border-radius: 2px;
+  margin-top: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .order__email {
+    margin-top: 0;
+    text-align: left;
+    padding-left: 15px;
+    width: 385px;
+    margin-right: 10px;
+  }
+}
+.order__email::placeholder {
+  font-size: 18px;
+  line-height: 13px;
+}
+.order__button {
+  width: 100%;
+  margin-top: 12px;
+}
+@media screen and (min-width: 1400px) {
+  .order__button {
+    margin-top: 0;
+    width: 160px;
+  }
+}
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b292d99;
+  margin: 0;
+  margin-top: 10px;
+}
+.order__terms-link {
+  color: #3142C6;
 }
 
 .footer {
@@ -682,9 +795,21 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 400px) {
+.article-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+}
+
+.article-description {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+@media screen and (min-width: 1400px) {
   .page {
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
