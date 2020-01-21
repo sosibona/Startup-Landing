@@ -7,6 +7,7 @@
 @import 'tips.scss';
 @import 'common.scss';
 @import 'customers.scss';
+@import 'inbox.scss';
 @import 'order.scss';
 @import 'footer.scss';
 
@@ -24,18 +25,6 @@ html {
 .page {
 	width: 100%;
 	overflow-x: hidden;
-}
-
-.article-title {
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 40px;
-	letter-spacing: -0.357143px;	
-}
-
-.article-description {
-	font-size: 24px;
-	line-height: 34px;	
 }
 
 	.page {

@@ -1,0 +1,71 @@
+.inbox {
+  padding: 50px 15px 48px 15px;
+  background-color: #FCF0E366;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__illustration {
+    max-width: 290px;
+  }
+
+  &__information {
+    border-bottom: 4px solid #0185D0;
+  }
+
+  &__subtitle {
+    margin-top: 32px;
+    color: #F1592B;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 17px;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 18px;
+  }
+}
+
+.feadback {
+  margin-top: 30px;
+  padding: 30px 20px;
+  background-color: #fff;
+
+  &__text {
+    font-size: 20px;
+    line-height: 28px;    
+  }
+
+  &__person {
+    display: flex;
+    margin-top: 26px;
+  }
+
+  &__person-avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+    margin-top: 8px;
+  }
+
+  &__person-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;    
+  }
+
+  &__person-position {
+    font-size: 16px;
+    line-height: 22px;    
+    color: #2b292d99;
+  }
+
+
+  &__person-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
