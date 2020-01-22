@@ -8,7 +8,7 @@
     margin: 0 auto;
     flex-direction: row;
     align-items: center;
-    padding: 30px 0 111px 0;
+    padding: 30px 0 110px 0;
   }
 
   &__row {
@@ -43,6 +43,10 @@
       border-right: none;
     }
   }
+}
+
+.customers__down {
+  padding-bottom: 76px;
 }
 
 
