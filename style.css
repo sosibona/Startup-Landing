@@ -938,20 +938,50 @@
 .hiring {
   padding: 50px 15px;
 }
+@media screen and (min-width: 1400px) {
+  .hiring {
+    padding: 106px 325px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .hiring__title {
   margin: 0;
   text-align: center;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__title {
+    width: 555px;
+  }
 }
 .hiring__description {
   margin: 0;
   margin-top: 18px;
   text-align: center;
 }
+@media screen and (min-width: 1400px) {
+  .hiring__description {
+    width: 555px;
+    margin-top: 18px;
+  }
+}
 .hiring__button {
   margin-top: 30px;
 }
+@media screen and (min-width: 1400px) {
+  .hiring__button {
+    width: 247px;
+    margin-top: 28px;
+  }
+}
 .hiring__position {
   margin-top: 39px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__position {
+    margin-top: 110px;
+  }
 }
 
 .vacancy {
@@ -962,19 +992,53 @@
   border-radius: 8px;
   display: flex;
 }
+@media screen and (min-width: 1400px) {
+  .vacancy {
+    width: 750px;
+    height: 81px;
+    margin-top: 20px;
+  }
+}
 .vacancy:first-child {
   margin-top: 0;
 }
+.vacancy:hover {
+  background-color: #3141C5;
+}
+.vacancy:hover .vacancy__search span {
+  color: #fff;
+}
+.vacancy:hover .vacancy__action {
+  background-color: #3141C5;
+}
+.vacancy:hover .vacancy__action-icon {
+  filter: brightness(0) invert(1);
+}
 .vacancy__search {
   width: 240px;
-  height: inherit;
   padding: 19px 21px 19px 20px;
+}
+.vacancy__search:hover {
+  background-color: #3141C5;
+}
+@media screen and (min-width: 1400px) {
+  .vacancy__search {
+    width: 100%;
+    padding: 26px 25px;
+    display: flex;
+    align-items: center;
+  }
 }
 .vacancy__name {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   display: inline-block;
+}
+@media screen and (min-width: 1400px) {
+  .vacancy__name {
+    width: 408px;
+  }
 }
 .vacancy__location {
   font-size: 16px;
@@ -983,12 +1047,22 @@
   margin-top: 18px;
   display: inline-block;
 }
+@media screen and (min-width: 1400px) {
+  .vacancy__location {
+    width: 232px;
+    margin-top: 0;
+  }
+}
 .vacancy__action {
   width: 50px;
-  height: inherit;
   background-color: #D5D4D5;
   border-radius: 0px 8px 8px 0px;
   display: flex;
+}
+@media screen and (min-width: 1400px) {
+  .vacancy__action {
+    background-color: #fff;
+  }
 }
 .vacancy__action-icon {
   margin: auto;

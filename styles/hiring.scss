@@ -1,23 +1,48 @@
 .hiring {
   padding: 50px 15px;
 
+  @include for-large-up {
+    padding: 106px 325px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   &__title {
     margin: 0;
     text-align: center;
+
+    @include for-large-up {
+      width: 555px;
+    }
   }
 
   &__description {
     margin: 0;
     margin-top: 18px;
     text-align: center;
+
+    @include for-large-up {
+      width: 555px;
+      margin-top: 18px;
+    }
   }
 
   &__button {
     margin-top: 30px;
+
+    @include for-large-up {
+      width: 247px;
+      margin-top: 28px;
+    }
   }
 
   &__position {
     margin-top: 39px;
+
+    @include for-large-up {
+      margin-top: 110px;
+    }
   }
 }
 
@@ -29,21 +54,57 @@
   border-radius: 8px;
   display: flex;
 
+  @include for-large-up {
+    width: 750px;
+    height: 81px;
+    margin-top: 20px;
+  }
+
   &:first-child {
     margin-top: 0;
   }
 
+  &:hover {
+    background-color: #3141C5;
+
+    & .vacancy__search span {
+      color: #fff;
+    }
+
+    & .vacancy__action {
+      background-color: #3141C5;
+    }
+
+    & .vacancy__action-icon {
+      filter: brightness(0) invert(1);
+    }
+  }
+
   &__search {
     width: 240px;
-    height: inherit;
     padding: 19px 21px 19px 20px;
+
+    &:hover {
+      background-color: #3141C5;
+    }
+
+    @include for-large-up {
+      width: 100%;
+      padding: 26px 25px;
+      display: flex;
+      align-items: center;
+    }
   }
 
   &__name {
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    display: inline-block;    
+    display: inline-block; 
+    
+    @include for-large-up {
+      width: 408px;
+    }
   }
 
   &__location {
@@ -51,18 +112,32 @@
     line-height: 22px; 
     color: #2B292D99;
     margin-top: 18px;
-    display: inline-block;   
+    display: inline-block;  
+    
+    @include for-large-up {
+      width: 232px;
+      margin-top: 0;
+    }
   }
 
   &__action {
     width: 50px;
-    height: inherit;
     background-color: #D5D4D5;
     border-radius: 0px 8px 8px 0px;
     display: flex;
+
+    @include for-large-up {
+      background-color: #fff;
+    }
   }
 
   &__action-icon {
     margin: auto;
   }
 }
+
+// .vacancy__action-icon:hover {
+//   // transform: rotate(45deg);
+  
+//   // background-image: url(../img/arrow.png);
+// }
