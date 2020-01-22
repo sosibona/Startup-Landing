@@ -5,7 +5,13 @@
 
   @include for-large-up {
     padding: 110px 130px;
-    flex-direction: row;
+    // flex-direction: row;
+  }
+
+  &__dekstop-info {
+    @include for-large-up {
+      display: flex;
+    }
   }
 
   &__info {
@@ -92,14 +98,27 @@
     border: 0;
     margin: 0;
     margin-top: 40px;
+
+    @include for-large-up {
+      margin-top: 26px;
+    }
   }
 
   &__proposition {
-    
+    @include for-large-up {
+      display: flex;
+      margin-top: 41px;
+      justify-content: space-between;
+    }
   }
 
   &__item {
     margin-top: 33px;
+
+    @include for-large-up {
+      margin-top: 0;
+      width: 360px;
+    }
   }
 
   &__item-description {  
@@ -116,5 +135,6 @@
     color: #3040C4;
     font-weight: 700;
     margin-top: 10px;
+    display: inline-block;
   }
 }
