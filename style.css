@@ -736,6 +736,60 @@
   display: inline-block;
 }
 
+.audience {
+  padding: 50px 15px;
+  background-color: #00A1C612;
+}
+.audience__subtitle {
+  text-align: center;
+  margin: 0;
+}
+.audience__title {
+  text-align: center;
+  margin: 0;
+  margin-top: 17px;
+}
+.audience__description {
+  margin: 0;
+  margin-top: 18px;
+  text-align: center;
+}
+.audience__button-get {
+  margin-top: 30px;
+}
+.audience__button-more {
+  margin-top: 12px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.user-card {
+  width: 290px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.user-card:hover {
+  background-color: #3141C5;
+}
+.user-card:hover .user-card__text {
+  color: #fff;
+}
+.user-card__image {
+  max-width: 138px;
+  margin: 0 auto;
+  display: block;
+  padding: 22px 0;
+}
+.user-card__text {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+}
+
 .order {
   background-color: #F4F5F7;
   padding: 50px 15px;

@@ -1,0 +1,63 @@
+.audience {
+  padding: 50px 15px;
+  background-color: #00A1C612;
+
+  &__subtitle {
+    text-align: center;
+    margin: 0;
+
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0;
+    margin-top: 17px;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  &__button-get {
+    margin-top: 30px;
+  }
+
+  &__button-more {
+    margin-top: 12px;
+    color: #000;
+    margin-bottom: 40px;
+  }
+}
+
+.user-card {
+  width: 290px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 15px;
+
+  &:hover {
+    background-color: #3141C5;
+
+    & .user-card__text {
+      color: #fff;
+    }
+  }
+
+  &__image {
+    max-width: 138px;
+    margin: 0 auto;
+    display: block;
+    padding: 22px 0;
+  }
+
+  &__text {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;  
+    display: block;  
+  }
+}
