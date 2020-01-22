@@ -935,6 +935,65 @@
   background-color: #3142C5;
 }
 
+.hiring {
+  padding: 50px 15px;
+}
+.hiring__title {
+  margin: 0;
+  text-align: center;
+}
+.hiring__description {
+  margin: 0;
+  margin-top: 18px;
+  text-align: center;
+}
+.hiring__button {
+  margin-top: 30px;
+}
+.hiring__position {
+  margin-top: 39px;
+}
+
+.vacancy {
+  width: 290px;
+  height: 140px;
+  border: 1px solid #2b292d33;
+  margin-top: 15px;
+  border-radius: 8px;
+  display: flex;
+}
+.vacancy:first-child {
+  margin-top: 0;
+}
+.vacancy__search {
+  width: 240px;
+  height: inherit;
+  padding: 19px 21px 19px 20px;
+}
+.vacancy__name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  display: inline-block;
+}
+.vacancy__location {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2B292D99;
+  margin-top: 18px;
+  display: inline-block;
+}
+.vacancy__action {
+  width: 50px;
+  height: inherit;
+  background-color: #D5D4D5;
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+}
+.vacancy__action-icon {
+  margin: auto;
+}
+
 .order {
   background-color: #F4F5F7;
   padding: 50px 15px;
