@@ -602,6 +602,40 @@
   flex-direction: column;
 }
 
+.communication {
+  padding: 50px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.communication__subtitle {
+  color: #0189D1;
+  margin: 0;
+}
+.communication__title {
+  margin: 0;
+  margin-top: 17px;
+}
+.communication__description {
+  margin: 0;
+  margin-top: 18px;
+}
+.communication__button {
+  margin: 0;
+  margin-top: 30px;
+  width: 160px;
+}
+.communication__image {
+  margin-top: 40px;
+  max-width: 290px;
+}
+.communication__image-caption {
+  margin-top: 17px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b292d99;
+}
+
 .order {
   background-color: #F4F5F7;
   padding: 50px 15px;
