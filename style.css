@@ -587,6 +587,7 @@
 @media screen and (min-width: 1400px) {
   .review {
     margin-top: 44px;
+    padding: 30px;
   }
 }
 .review__text {
@@ -839,7 +840,7 @@
   }
 }
 .user-card:first-child {
-  margin-top: 0;
+  margin-left: 0;
 }
 .user-card:hover {
   background-color: #3141C5;
