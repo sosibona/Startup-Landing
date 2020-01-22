@@ -43,10 +43,14 @@
       border-right: none;
     }
   }
-}
 
-.customers__down {
-  padding-bottom: 76px;
+  &__down{
+    margin-bottom: 39px;
+
+    @include for-large-up {
+      padding-bottom: 76px;
+    }
+  }
 }
 
 
