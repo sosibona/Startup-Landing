@@ -2,7 +2,18 @@
   padding: 50px 15px 40px 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  @include for-large-up {
+    padding: 110px 130px;
+    flex-direction: row;
+  }
+
+  &__info {
+    @include for-large-up {
+      width: 461px;
+      margin-top: 13px;
+    }
+  }
 
   &__subtitle {
     color: #0189D1;
@@ -12,22 +23,55 @@
   &__title {
     margin: 0;
     margin-top: 17px;
+
+    @include for-large-up {
+      font-weight: bold;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px; 
+      margin-top: 24px;     
+    }
   }
 
   &__description {
     margin: 0;
     margin-top: 18px;
+
+    @include for-large-up {
+      margin-top: 30px;     
+    }
   }
 
   &__button {
     margin: 0;
     margin-top: 30px;
     width: 160px;
+
+    @include for-large-up {
+      margin-top: 39px;     
+    }
+  }
+
+  &__illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include for-large-up {
+      margin-left: auto;
+      margin-top: 0;
+    }
   }
 
   &__image {
     margin-top: 40px;
     max-width: 290px;
+
+    @include for-large-up {
+      margin-top: 0;     
+      max-width: 425px;
+      height: 426px;
+    }
   }
 
   &__image-caption{
@@ -35,5 +79,42 @@
     font-size: 14px;
     line-height: 22px;
     color: #2b292d99;
+
+    @include for-large-up {
+      margin-top: 15px;     
+    }
+  }
+
+  &__horizontal-line {
+    width: 150px;
+    height: 1px;
+    background-color: #0000001A;
+    border: 0;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  &__proposition {
+    
+  }
+
+  &__item {
+    margin-top: 33px;
+  }
+
+  &__item-description {  
+    margin: 0;  
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  &__item-description-name {
+    font-weight: 700;
+  }
+
+  &__item-link {
+    color: #3040C4;
+    font-weight: 700;
+    margin-top: 10px;
   }
 }

@@ -606,7 +606,18 @@
   padding: 50px 15px 40px 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .communication {
+    padding: 110px 130px;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .communication__info {
+    width: 461px;
+    margin-top: 13px;
+  }
 }
 .communication__subtitle {
   color: #0189D1;
@@ -616,24 +627,90 @@
   margin: 0;
   margin-top: 17px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__title {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin-top: 24px;
+  }
+}
 .communication__description {
   margin: 0;
   margin-top: 18px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__description {
+    margin-top: 30px;
+  }
 }
 .communication__button {
   margin: 0;
   margin-top: 30px;
   width: 160px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__button {
+    margin-top: 39px;
+  }
+}
+.communication__illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .communication__illustration {
+    margin-left: auto;
+    margin-top: 0;
+  }
+}
 .communication__image {
   margin-top: 40px;
   max-width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__image {
+    margin-top: 0;
+    max-width: 425px;
+    height: 426px;
+  }
 }
 .communication__image-caption {
   margin-top: 17px;
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
+}
+@media screen and (min-width: 1400px) {
+  .communication__image-caption {
+    margin-top: 15px;
+  }
+}
+.communication__horizontal-line {
+  width: 150px;
+  height: 1px;
+  background-color: #0000001A;
+  border: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+.communication__item {
+  margin-top: 33px;
+}
+.communication__item-description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+}
+.communication__item-description-name {
+  font-weight: 700;
+}
+.communication__item-link {
+  color: #3040C4;
+  font-weight: 700;
+  margin-top: 10px;
 }
 
 .order {
