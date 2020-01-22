@@ -29,7 +29,7 @@
   }
 }
 .header__menu-button-icon {
-  background-image: url(img/icon-hamburger.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   display: block;
   margin: auto;
   width: 18px;
@@ -113,7 +113,7 @@
   font-weight: 700;
 }
 .nav-list__arrow {
-  background: url(img/arrow.png);
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   width: 8px;
   height: 5px;
   display: inline-block;
