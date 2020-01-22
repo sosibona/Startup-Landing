@@ -48,13 +48,12 @@
   }
 
   &__cards {
-
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @include for-large-up {
-      display: flex;
+      flex-direction: row;
     }
   }
 
