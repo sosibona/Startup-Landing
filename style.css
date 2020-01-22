@@ -740,6 +740,14 @@
   padding: 50px 15px;
   background-color: #00A1C612;
 }
+@media screen and (min-width: 1400px) {
+  .audience {
+    padding: 108px 131px 110px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .audience__subtitle {
   text-align: center;
   margin: 0;
@@ -749,18 +757,55 @@
   margin: 0;
   margin-top: 17px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    width: 555px;
+    margin-top: 24px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
 .audience__description {
   margin: 0;
   margin-top: 18px;
   text-align: center;
 }
+@media screen and (min-width: 1400px) {
+  .audience__description {
+    width: 555px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__btn {
+    display: flex;
+    margin-top: 34px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__cards {
+    display: flex;
+  }
+}
 .audience__button-get {
   margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__button-get {
+    margin-top: 0;
+  }
 }
 .audience__button-more {
   margin-top: 12px;
   color: #000;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__button-more {
+    margin-top: 0;
+    margin-left: 10px;
+  }
 }
 
 .user-card {
@@ -770,6 +815,15 @@
   background-color: #fff;
   margin-top: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .user-card {
+    width: 262px;
+    margin-left: 30px;
+  }
+}
+.user-card:first-child {
+  margin-left: 0;
+}
 .user-card:hover {
   background-color: #3141C5;
 }
@@ -777,7 +831,6 @@
   color: #fff;
 }
 .user-card__image {
-  max-width: 138px;
   margin: 0 auto;
   display: block;
   padding: 22px 0;

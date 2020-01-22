@@ -2,6 +2,13 @@
   padding: 50px 15px;
   background-color: #00A1C612;
 
+  @include for-large-up {
+    padding: 108px 131px 110px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  }
+
   &__subtitle {
     text-align: center;
     margin: 0;
@@ -12,22 +19,58 @@
     text-align: center;
     margin: 0;
     margin-top: 17px;
+
+    @include for-large-up {
+      width: 555px;
+      margin-top: 24px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;      
+    }
+  
   }
 
   &__description {
     margin: 0;
     margin-top: 18px;
     text-align: center;
+
+    @include for-large-up {
+      width: 555px;
+      margin-top: 30px;
+    }
+  }
+
+  &__btn{
+    @include for-large-up {
+      display: flex;
+      margin-top: 34px;
+    }
+  }
+
+  &__cards {
+    @include for-large-up {
+      display: flex;
+    }
   }
 
   &__button-get {
     margin-top: 30px;
+
+    @include for-large-up {
+      margin-top: 0;
+    }
   }
 
   &__button-more {
     margin-top: 12px;
     color: #000;
     margin-bottom: 40px;
+
+    @include for-large-up {
+      margin-top: 0;
+      margin-left: 10px;
+    }
   }
 }
 
@@ -38,6 +81,15 @@
   background-color: #fff;
   margin-top: 15px;
 
+  @include for-large-up {
+    width: 262px;
+    margin-left: 30px;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
   &:hover {
     background-color: #3141C5;
 
@@ -47,7 +99,6 @@
   }
 
   &__image {
-    max-width: 138px;
     margin: 0 auto;
     display: block;
     padding: 22px 0;
