@@ -286,6 +286,9 @@
 .features__subtitle {
   color: #009B4D;
   margin: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
 }
 .features__title {
   font-weight: 700;
@@ -539,6 +542,7 @@
   }
 }
 .inbox__subtitle {
+  margin: 0;
   margin-top: 32px;
   color: #F1592B;
 }
@@ -835,7 +839,7 @@
   }
 }
 .user-card:first-child {
-  margin-left: 0;
+  margin-top: 0;
 }
 .user-card:hover {
   background-color: #3141C5;
@@ -856,12 +860,12 @@
   display: block;
 }
 
-.feadback {
+.feedback {
   padding: 0 15px 50px;
   border-bottom: 1px solid #e3e3e3;
 }
 @media screen and (min-width: 1400px) {
-  .feadback {
+  .feedback {
     padding: 0 130px 86px;
     display: flex;
     flex-direction: column;
@@ -869,7 +873,7 @@
     position: relative;
   }
 }
-.feadback__title {
+.feedback__title {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
@@ -877,39 +881,39 @@
   color: #3142C6;
 }
 @media screen and (min-width: 1400px) {
-  .feadback__title {
+  .feedback__title {
     text-align: center;
   }
 }
-.feadback__description {
+.feedback__description {
   margin: 0;
   margin-top: 29px;
 }
 @media screen and (min-width: 1400px) {
-  .feadback__description {
+  .feedback__description {
     margin-top: 28px;
     width: 750px;
     text-align: center;
   }
 }
-.feadback__name {
+.feedback__name {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-top: 32px;
   display: inline-block;
 }
-.feadback__position {
+.feedback__position {
   font-size: 16px;
   line-height: 24px;
   color: #2b292d99;
   display: inline-block;
 }
-.feadback__image {
+.feedback__image {
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .feadback__image {
+  .feedback__image {
     position: absolute;
     right: 26px;
     bottom: 0px;

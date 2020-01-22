@@ -50,6 +50,7 @@
   }
 
   &__subtitle {
+    margin: 0;
     margin-top: 32px;
     color: #F1592B;
 
@@ -93,6 +94,7 @@
 
   @include for-large-up {
     margin-top: 44px;
+    padding: 30px;
   }
 
   &__text {
